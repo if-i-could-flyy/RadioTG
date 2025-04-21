@@ -5,7 +5,7 @@ const playlist = [
     { title: "Niall Horan - If You Leave Me", src: "https://if-i-could-flyy.github.io/RadioTG/niall-horan-if-you-leave-me.mp3" },
     { title: "Niall Horan - Arms Of A Stranger", src: "https://if-i-could-flyy.github.io/RadioTG/muzlome_Niall_Horan_-_Arms_Of_A_Stranger.mp3" },
     { title: "Niall Horan - Finally Free", src: "https://if-i-could-flyy.github.io/RadioTG/muzlome_Niall_Horan_-_Finally_Free.mp3" },
-    { title: "Niall Horan - Must be Love", src: "https://if-i-could-flyy.github.io/RadioTG/muzlome_Niall_Horan_-_Heartbreak_Weather.mp3" },
+    { title: "Niall Horan - Heartbreak Weather, src: "https://if-i-could-flyy.github.io/RadioTG/muzlome_Niall_Horan_-_Heartbreak_Weather.mp3" },
     { title: "Louis Tomlinson - Angels Fly", src: "https://if-i-could-flyy.github.io/RadioTG/Angels%20Fly.mp3" }, // Убедитесь в правильности имени файла
     // Добавьте другие ваши треки сюда
 ];
