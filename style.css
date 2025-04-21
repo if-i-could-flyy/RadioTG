@@ -129,9 +129,6 @@ h1 {
     font-size: 0.9em;
     color: #777;
 }
-
-/* Опциональные стили для регулятора громкости */
-/*
 .volume-control {
     margin-top: 15px;
 }
