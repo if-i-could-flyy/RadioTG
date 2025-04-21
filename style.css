@@ -1,0 +1,174 @@
+body {
+    font-family: 'Arial', sans-serif;
+    /* Градиентный фон в стиле One Direction (фиолетовый/синий/серый) */
+    background: linear-gradient(to bottom right, #6a1b9a, #42a5f5, #e0e0e0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    color: #333; /* Темный текст по умолчанию */
+    box-sizing: border-box; /* Учитываем padding в размере элемента */
+}
+
+.radio-container {
+    background-color: rgba(255, 255, 255, 0.95); /* Почти непрозрачный белый фон */
+    padding: 25px;
+    border-radius: 20px; /* Скругленные углы */
+    text-align: center;
+    max-width: 400px; /* Ограничение ширины для Mini App */
+    width: 100%; /* Использование всей доступной ширины на маленьких экранах */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Тень для объема */
+    backdrop-filter: blur(5px); /* Небольшое размытие фона за контейнером */
+}
+
+h1 {
+    color: #4a148c; /* Темно-фиолетовый */
+    margin-bottom: 25px;
+    font-size: 2em; /* Размер заголовка */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Небольшая тень у текста */
+}
+
+.album-art img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    display: block; /* Убираем лишний пробел под изображением */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.track-info {
+    margin-bottom: 25px;
+}
+
+.song-title {
+    font-size: 1.1em;
+    color: #555;
+    margin: 0 0 5px 0;
+}
+
+.current-track {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #673ab7; /* Пурпурный */
+    margin: 0;
+}
+
+/* Скрываем стандартный элемент audio */
+#audioPlayer {
+    display: none;
+}
+
+.controls {
+    margin-bottom: 25px;
+    display: flex; /* Используем flexbox для выравнивания кнопок */
+    justify-content: center; /* Центрируем кнопки */
+    align-items: center;
+    gap: 15px; /* Расстояние между кнопками */
+}
+
+.controls button {
+    background-color: #7e57c2; /* Средний пурпурный */
+    color: white;
+    border: none;
+    border-radius: 50%; /* Круглая кнопка */
+    width: 60px; /* Размер кнопки */
+    height: 60px; /* Размер кнопки */
+    font-size: 1.5em;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease, transform 0.1s ease; /* Плавный переход цвета и небольшое нажатие */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 0; /* Убираем внутренние отступы, чтобы иконка центрировалась */
+}
+
+/* Увеличим центральную кнопку (плей/пауза) */
+#play-pause-btn {
+    width: 70px;
+    height: 70px;
+    font-size: 1.8em;
+}
+
+
+.controls button:hover {
+    background-color: #673ab7; /* Темнее при наведении */
+}
+
+.controls button:active {
+    transform: scale(0.95); /* Уменьшение при нажатии */
+}
+
+.controls button svg {
+    fill: currentColor; /* Иконка наследует цвет текста кнопки */
+    width: 50%; /* Размер иконки относительно кнопки */
+    height: 50%; /* Размер иконки относительно кнопки */
+}
+
+#play-pause-btn svg {
+     width: 45%; /* Чуть меньше для центральной кнопки */
+     height: 45%; /* Чуть меньше для центральной кнопки */
+}
+
+.hidden {
+    display: none; /* Класс для скрытия элементов */
+}
+
+.status {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 10px; /* Отступ перед счетчиком треков */
+}
+
+.track-counter {
+    font-size: 0.9em;
+    color: #777;
+}
+
+/* Опциональные стили для регулятора громкости */
+/*
+.volume-control {
+    margin-top: 15px;
+}
+
+#volumeSlider {
+    width: 80%;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 8px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity .2s;
+    border-radius: 4px;
+}
+
+#volumeSlider:hover {
+    opacity: 1;
+}
+
+#volumeSlider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #7e57c2;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#volumeSlider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: #7e57c2;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+*/

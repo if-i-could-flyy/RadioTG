@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Радио One Direction</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <div class="radio-container">
+        <h1>Радио One Direction</h1>
+
+        <div class="album-art">
+            <img src="one-direction-logo.png" alt="Изображение One Direction">
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Радио One Direction</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+    <div class="radio-container">
+        <h1>Радио One Direction</h1>
+
+        <div class="album-art">
+            <img src="one-direction-logo.png" alt="Изображение One Direction">
+        </div>
+
+        <div class="track-info">
+            <p class="song-title">Сейчас играет:</p>
+            <p class="current-track">Неизвестный трек</p>
+        </div>
+
+        <audio id="audioPlayer"></audio>
+
+        <div class="controls">
+            <button id="play-pause-btn" aria-label="Воспроизвести/Пауза">
+                <svg class="play-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8 5V19L19 12L8 5Z" fill="currentColor"/>
+                </svg>
+                <svg class="pause-icon hidden" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6 4H10V20H6V4ZM14 4H18V20H14V4Z" fill="currentColor"/>
+                </svg>
+            </button>
+
+             <button id="next-btn" aria-label="Следующий трек">
+                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6 18V6H8V18H6ZM9.5 12L18 18V6L9.5 12Z" fill="currentColor"/>
+                 </svg>
+            </button>
+
+            </div>
+
+        <div class="status">
+            <p id="radio-status">Статус: Остановлено</p>
+        </div>
+         <div class="track-counter">
+             <p>Трек <span id="current-track-index">-</span> из <span id="total-tracks">-</span></p>
+         </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
