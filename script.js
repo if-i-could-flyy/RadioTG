@@ -164,7 +164,7 @@ nextBtn.addEventListener('click', playNextTrack);
 
 // Ползунок громкости
 volumeSlider.addEventListener('input', () => {
-    // Значение ползунка (от 0 до 1) напрямую соответствует свойству volume аудиоэлемента
+     console.log("Ползунок громкости движется, значение:", volumeSlider.value);// Значение ползунка (от 0 до 1) напрямую соответствует свойству volume аудиоэлемента
     audio.volume = volumeSlider.value;
     // console.log("Громкость установлена на:", audio.volume); // Для отладки
 });
