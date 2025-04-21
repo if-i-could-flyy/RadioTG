@@ -1,6 +1,7 @@
 // =============================================================
 // Вставьте сюда ваш массив playlist с правильными URL GitHub Pages
 // Пример:
+console.log("script.js загружен и выполняется");
 const playlist = [
     { title: "Niall Horan - If You Leave Me", src: "https://if-i-could-flyy.github.io/RadioTG/niall-horan-if-you-leave-me.mp3" },
     { title: "Niall Horan - Arms Of A Stranger", src: "https://if-i-could-flyy.github.io/RadioTG/muzlome_Niall_Horan_-_Arms_Of_A_Stranger.mp3" },
