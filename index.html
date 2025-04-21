@@ -5,34 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>1D FM</title>
     <link rel="stylesheet" href="style.css">
-    </head>
-<body>
-    <div class="radio-container">
-        <h1>1D FM</h1>
-
-        <div class="album-art">
-            <img src="46e6a84b5a7f5cefe2e2f71b69cb8a07.png" alt="Изображение One Direction">
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>1D FM</title>
-    <link rel="stylesheet" href="style.css">
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
 </head>
 <body>
     <div class="radio-container">
         <h1>1D FM</h1>
 
-        <div class="album-art">
-            <img src="one-direction-logo.png" alt="Изображение One Direction">
-        </div>
-
         <div class="track-info">
             <p class="song-title">Сейчас играет:</p>
-            <p class="current-track">Неизвестный трек</p>
-        </div>
+            <p class="current-track">Загрузка...</p> </div>
 
         <audio id="audioPlayer"></audio>
 
@@ -46,20 +27,24 @@
                 </svg>
             </button>
 
-             <button id="next-btn" aria-label="Следующий трек">
-                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <button id="next-btn" aria-label="Следующий трек">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M6 18V6H8V18H6ZM9.5 12L18 18V6L9.5 12Z" fill="currentColor"/>
-                 </svg>
+                </svg>
             </button>
+        </div>
 
-            </div>
+        <div class="volume-control">
+             <label for="volumeSlider">Громкость:</label>
+             <input type="range" id="volumeSlider" min="0" max="1" step="0.01" value="1">
+        </div>
 
         <div class="status">
-            <p id="radio-status">Статус: Остановлено</p>
+            <p id="radio-status">Статус: Загрузка...</p> </div>
+
+        <div class="track-counter">
+            <p>Трек <span id="current-track-index">0</span> из <span id="total-tracks">0</span></p>
         </div>
-         <div class="track-counter">
-             <p>Трек <span id="current-track-index">-</span> из <span id="total-tracks">-</span></p>
-         </div>
     </div>
 
     <script src="script.js"></script>
