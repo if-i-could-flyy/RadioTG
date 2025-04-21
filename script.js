@@ -28,11 +28,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // ВНИМАНИЕ: Замените эти URL на реальные ссылки на ваши аудиофайлы!
     // Убедитесь, что файлы доступны по HTTPS.
     const playlist = [
-        { title: "Niall Horan - If You Leave Me", src: "https://disk.yandex.ru/d/mvkk4ZSm2XbQXQ" },
-        { title: "Story of My Life", src: "https://ваша-ссылка.com/music/story-of-my-life.mp3" },
-        { title: "Drag Me Down", src: "https://ваша-ссылка.com/music/drag-me-down.mp3" },
-        { title: "Little Things", src: "https://ваша-ссылка.com/music/little-things.mp3" },
-        { title: "Best Song Ever", src: "https://ваша-ссылка.com/music/best-song-ever.mp3" },
+        { title: "Niall Horan - If You Leave Me", src: "https://github.com/if-i-could-flyy/RadioTG/blob/main/niall-horan-if-you-leave-me.mp3" },
+        { title: "Niall Horan - Must be Love", src: "https://github.com/if-i-could-flyy/RadioTG/blob/main/niall-horan-must-be-love.mp3" },
         // Добавьте больше треков по аналогии
     ];
 
