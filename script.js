@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // ВНИМАНИЕ: Замените эти URL на реальные ссылки на ваши аудиофайлы!
     // Убедитесь, что файлы доступны по HTTPS.
     const playlist = [
-        { title: "Niall Horan - If You Leave Me", src: "https://github.com/if-i-could-flyy/RadioTG/blob/main/niall-horan-if-you-leave-me.mp3" },
+        { title: "Niall Horan - If You Leave Me", src: "https://if-i-could-flyy.github.io/RadioTG/niall-horan-if-you-leave-me.mp3" },
         { title: "Niall Horan - Must be Love", src: "https://github.com/if-i-could-flyy/RadioTG/blob/main/niall-horan-must-be-love.mp3" },
         // Добавьте больше треков по аналогии
     ];
