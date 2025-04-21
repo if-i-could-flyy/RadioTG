@@ -29,7 +29,10 @@ document.addEventListener('DOMContentLoaded', () => {
     // Убедитесь, что файлы доступны по HTTPS.
     const playlist = [
         { title: "Niall Horan - If You Leave Me", src: "https://if-i-could-flyy.github.io/RadioTG/niall-horan-if-you-leave-me.mp3" },
-        { title: "Niall Horan - Must be Love", src: "https://github.com/if-i-could-flyy/RadioTG/blob/main/niall-horan-must-be-love.mp3" },
+        { title: "Niall Horan - Arms Of A Stranger", src: "https://if-i-could-flyy.github.io/RadioTG/muzlome_Niall_Horan_-_Arms_Of_A_Stranger.mp3" },
+        { title: "Niall Horan - Finally Free", src: "https://if-i-could-flyy.github.io/RadioTG/muzlome_Niall_Horan_-_Finally_Free.mp3" },
+        { title: "Niall Horan - Must be Love", src: "https://if-i-could-flyy.github.io/RadioTG/muzlome_Niall_Horan_-_Heartbreak_Weather.mp3" },
+        { title: "Louis Tomlinson", src: "https://if-i-could-flyy.github.io/RadioTG/Angels%20Fly.mp3" },
         // Добавьте больше треков по аналогии
     ];
 
